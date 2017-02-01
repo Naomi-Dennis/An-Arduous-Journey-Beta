@@ -1,0 +1,101 @@
+*** Melee ***** 
+	public override function brainTick(player:Mob, field:Field, allies:Array):void
+		{
+			/*
+			 * Basic AI - Go after the closest player
+			 * */
+			var hasMoved:Boolean = false;
+			var hasAttacked:Boolean = false;
+			var playerTarget:Mob = getClosestPlayer(field);
+			var cowardly:Boolean = false;
+			if (hp < getMaxHp() * 0.50)
+			{
+				if (inventory.getItemByName("HealthPotion") != null)
+				{
+					useItem(inventory.getItemByName("HealthPotion"));
+				}
+				else
+				{
+					moveAround(function():void
+					{
+						moveTo(field, this.getFarthestPositionFromPlayer(field, playerTarget))
+					});
+					cowardly = true;
+				}
+			}
+			else
+			{
+				moveAround(function():void
+				{
+					moveTowardsPlayer(field, playerTarget);
+				});
+			}
+			if (mp > 0 && !cowardly)
+			{
+				if (distanceBetweenCells(playerTarget.getBattlePiece().getCellLocation(), getBattlePiece().getCellLocation()) > 1)
+				{
+					brainTick(playerTarget, field, allies);
+				}
+			}
+			var skill:Skill = orderOfAttack()
+			if (skill != null)
+			{
+				if (!attack(field, skill, playerTarget))
+				{
+					
+				}
+				else
+				{
+					brainTick(playerTarget, field, allies);
+				}
+			}
+		
+		}
+		
+		
+		
+
+		
+*** Ranged ***** 
+	public function brainTick(player:Mob, field:Field, allies:Array):void
+		{
+			/*
+			* Basic AI - Go after the closest player
+			* */
+			var hasMoved:Boolean = false;
+			var hasAttacked:Boolean  = false; 
+			var playerTarget:Mob = getClosestPlayer(field);
+			var cowardly:Boolean = false; 
+			if (hp < getMaxHp() * 0.50) {
+				if(inventory.getItemByName("HealthPotion") != null){
+					useItem( inventory.getItemByName("HealthPotion") ); 
+				}
+				else{
+					moveAround( function():void{ moveTo( field, getFarthestCellFromPlayer() ) } ); 
+					cowardly = true; 
+				}
+			}
+			else{
+				moveAround( function():void { moveTowardsPlayer(field, playerTarget);  } );
+			}
+			if (mp > 0 && !cowardly)
+			{
+				if (distanceBetweenCells(playerTarget.getBattlePiece().getCellLocation(), getBattlePiece().getCellLocation()) > 1)
+				{
+					brainTick(playerTarget, field, allies);
+				}
+			}
+			var skill:Skill = orderOfAttack()
+			if (skill != null)
+			{
+				if (!attack(field, skill, playerTarget))
+				{
+					
+				}
+				else
+				{
+					brainTick(playerTarget, field, allies);
+				}
+			}
+		
+		}

@@ -1,0 +1,33 @@
+Main Classes (excluding skills & items)
+=============
+Main.as 
+OptionScreen.as
+TitleScreen.as > FireFlyEffect
+TownDescriptionScreen.as
+PrologueScreen.as
+Map.as > Mission (subclass)
+       > Fog (subclass)
+BattleStruct.as
+SettingStruct.as
+TravellingSalesman.as > ShopSlot
+BattleClass.as > ContestantScreen 
+	       > EquipSoldier
+SettingBackground.as
+PlayerStruct.as
+InBattleRewardScreen.as
+Mob.as
+BattlePiece.as
+Enemy.as
+BattleGUI.as > EffectsIco
+             > QuickSlots
+             > QuickSlot
+Field.as
+Cell.as
+
+Static (Main) Classes
+=======================
+BackgroundList.as
+EnemiesList.as
+PlayersLibrary.as
+Battles.as
+

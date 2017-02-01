@@ -1,0 +1,26 @@
+ Volume in drive C is OS
+ Volume Serial Number is B4FF-6D75
+
+ Directory of C:\Users\njden_000\Documents\my games\Projects\Arena - Beta\New Project\src\items
+
+05/05/2016  08:14 PM    <DIR>          .
+05/05/2016  08:14 PM    <DIR>          ..
+12/21/2015  10:45 AM               663 Antidote.as
+02/03/2016  02:54 PM    <DIR>          armor
+03/15/2016  04:27 PM    <DIR>          clothing_hair
+01/02/2016  03:09 PM               648 ConstitutionBook.as
+01/02/2016  03:09 PM               622 DefenseBook.as
+12/21/2015  11:00 AM               822 DexterityPotion.as
+01/04/2016  02:19 PM               765 HealthPotion.as
+05/05/2016  08:14 PM                 0 items.txt
+12/21/2015  10:34 AM               505 ItemTemplate.as
+03/15/2016  04:17 PM    <DIR>          pics
+12/31/2015  08:01 PM             1,212 PrizeBox.as
+01/02/2016  03:09 PM               628 StrengthBook.as
+01/02/2016  02:54 PM               852 StrengthPotion.as
+03/07/2016  02:05 PM             1,579 Torch.as
+02/04/2016  03:07 PM    <DIR>          weapon
+01/02/2016  03:09 PM               622 WisdomBook.as
+12/21/2015  11:00 AM               806 WisdomPotion.as
+              13 File(s)          9,724 bytes
+               6 Dir(s)  486,465,368,064 bytes free

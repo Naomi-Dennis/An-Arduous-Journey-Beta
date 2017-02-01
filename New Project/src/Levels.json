@@ -1,0 +1,7442 @@
+{
+  "levels": [
+    {
+      "1": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Pest Control"
+                },
+                {
+                  "desc": "There are critters disrupting the fields. Clear them out."
+                },
+                {
+                  "icoName": "rat"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the fields. The wheat is as tall as you, however, the roots are eaten away and destroyed."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "100"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    },
+                    {
+                      "Mob": "BlackBear"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You notice a large amount of rat droppings in a peculiar spot. You walk towards it, following the tracks left by mice."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    },
+                    {
+                      "Mob": "BlackBear"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You return to the mayor's office and are rewarded for a job well done. You've received 100g"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "100"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "2": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "A Shady Situation"
+                },
+                {
+                  "desc": "Villagers have been disappearing on the eastern road outside of town. Find out why."
+                },
+                {
+                  "icoName": "shade"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the road outside of town. The trees tower over you, casting a quaint shadows across the roads."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "As you continue down the road, you notice strange markings on the trees."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "100"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You continue down the road, and find a strange portal. Its bluish, purplish glow is unsettling."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You begin heading back towards the town."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "Rat"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You return to the mayor's office and are rewarded for a job well done. You've recieved 100g."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "100"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "3": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "The Coup"
+                },
+                {
+                  "desc": "A large group of highwayman has been spotted on the outskirts of town. Lower their numbers."
+                },
+                {
+                  "icoName": "bandit"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the outskirts of town. The road is clear, as well as the surrounding area."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You step on something squishy. It's red and leads deeper into the forest."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "woodsSurrounded"
+                },
+                {
+                  "prompt": "\"FREEZE!\" You are surrounded."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "woodsSurrounded"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "woodsSurrounded"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "woodsSurrounded"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You order your group to retreat, as there are too many highwayman."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "100"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "woodsSurrounded"
+                },
+                {
+                  "prompt": "As you retreat, you hear the terror filled cries of the salesman."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "firstTown"
+                },
+                {
+                  "prompt": "You return to the town. The highwaymen disperse and you go to the mayor's office. You're rewarded with 200g"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "200"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "4": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "The Coup II"
+                },
+                {
+                  "desc": "Another group of highwaymen has been spotted on the main road leading into town. Lower their numbers."
+                },
+                {
+                  "icoName": "banditarcher"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the main road leading into town. Waiting, you detect the highwaymen, they ready their weapons."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You drive them back a bit, and allow the soldiers to take charge. Your army rests."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "firstTown"
+                },
+                {
+                  "prompt": "The battle is over for now. You return to the barracks and are given your pay of 200g"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "200"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "5": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Defend the City"
+                },
+                {
+                  "desc": "An army of highwayman are outside the city gates. The peasants have rallied to defend the city."
+                },
+                {
+                  "icoName": "door"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                { 
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "BanditWarrior"
+                    },
+                    {
+                      "Mob": "BanditArcher"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You drive what little highwaymen are left, The village lay in ruins. You receive 400gp for your efforts."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "400"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "6": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "To Bromide I"
+                },
+                {
+                  "desc": "You venture to Bromide to gather aide to rebuild the The swamps are not very pleasant."
+                },
+                {
+                  "icoName": "alligator"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "And thus to Bromide you go! You notice a salesman as soon as you leave the town."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "200"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "prompt": "As you trek through the swamps, you notice strange tracks."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "twoheadedogre"
+                    },
+                    {
+                      "Mob": "Alligator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "twoheadedogre"
+                    },
+                    {
+                      "Mob": "Alligator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "twoheadedogre"
+                    },
+                    {
+                      "Mob": "Alligator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "prompt": "You pause to rest for the night."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Alligator"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "Alligator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "Alligator"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "swamp"
+                },
+                {
+                  "prompt": "You reach the end of the swamp. You find a rickety old chest, opening it, you find some cool items!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "300"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "7": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "To Bromide II"
+                },
+                {
+                  "desc": "You are out of the swamp and on the plains. Bromide can be seen, shining in the distance."
+                },
+                {
+                  "icoName": "troll"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "The land gets drier as you enter the plains. Trees become less frequent you see the tips of buildings in the horizon."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "You come across a mysterious box."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": [
+                    {
+						"Give_Item": "Tunic"
+                    },
+					{
+						"Give_Item" : "Sword"
+					},
+					{
+						"Give_Item" : "Shield"
+					}
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "You take note of the wonderful scenery around you."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "100"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "DefenseBook": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "The town doesn't seem to be getting closer, but you proceed onward!"
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "You decide to rest here for the time being. The plains is vast, best not to do it all at once."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "8": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "To Bromide III"
+                },
+                {
+                  "desc": "You can see the buildings of Bromide much clearer now, however, there is still a long way to go."
+                },
+                {
+                  "icoName": "centuar"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "You come across a lake, and decide to replenish yourself."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "You find a dirty book on the ground. Opening it, shows the description of an old skill."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Item": "Skill_DoubleShot"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "prompt": "The town seems getting much closer, you're almost there!"
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "plains"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Centuar"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You reach the town, but something is wrong. It is desolate and blood line the streets."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "9": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Ruins"
+                },
+                {
+                  "desc": "You reach Bromide, but the town is destroyed. Perhaps there are survivors?"
+                },
+                {
+                  "icoName": "possessedsoldier"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "As you progress through the town, you notice that the bodies are missing; there's just blood."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You pass destoryed market stalls and empty pubs. There is loud clanging coming from deeper into town."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You come across a bag filled with health potions."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Item": "Item_HealthPotion"
+                    },
+                    {
+                      "Give_Item": "HealthPotion"
+                    },
+                    {
+                      "Give_Item": "HealthPotion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You follow the noise to a church. There are people fighting outside of it."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "10": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Survivors"
+                },
+                {
+                  "desc": "You search the town, looking for survivors. You notice a small glow deeper into town."
+                },
+                {
+                  "icoName": "orcwarrior"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You fight your way deeper into town."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "6"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "PossessedSoldier"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "The battle is not yet over. However, you take a breather to regain your strenghth."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "11": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Glimmer of Hope"
+                },
+                {
+                  "desc": "You get closer to the small glow. It's an old church with soldiers fighting outside of it."
+                },
+                {
+                  "icoName": "door"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "As you approach a group of Orc stand in your way."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "Ogre"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "Ogre"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "Ogre"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "6"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "Ogre"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "The Orc are destoryed; you reached the survivors!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "12": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Fighting Back"
+                },
+                {
+                  "desc": "You seek to push through the Orc to the small light."
+                },
+                {
+                  "icoName": "orcwarrior"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You step into a residential part of town. Blood is everywhere and Orc can be heard closeby."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "6"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcArcher"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "OrcKnight"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You push through! However, the fight is now over!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "13": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into Depths"
+                },
+                {
+                  "desc": "Alas, Thormund cave. It is time to vanquish the demon and return peace to the realm."
+                },
+                {
+                  "icoName": "demon"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "prompt": "You venture into the cave. As soon as you do a strange force prevents you from leaving. There is only one way out. You begin making your way thruogh the caves."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "IronTroll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "IronTroll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "IronTroll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "prompt": "You proceed further into the cave."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "14": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into the Depths"
+                },
+                {
+                  "desc": "You journey though the cave, you vanquish the demon once and for all."
+                },
+                {
+                  "icoName": "orcknight"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "prompt": "You journey further into the cave."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "15": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into the Depths"
+                },
+                {
+                  "desc": "You journey though the cave, you vanquish the demon once and for all."
+                },
+                {
+                  "icoName": "imp"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "OrcKnight"
+                    },
+                    {
+                      "Mob": "Imp"
+                    },
+                    {
+                      "Mob": "DarkBattleMage"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "prompt": "You venture further into the cave."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "16": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into the Depths"
+                },
+                {
+                  "desc": "You journey though the cave, you vanquish the demon once and for all."
+                },
+                {
+                  "icoName": "skeleton"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "Hell"
+                },
+                {
+                  "prompt": "You here a battle cry from deep inside the cave."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "HellWithFire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "You venture deeper into the cave."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "17": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into the Depths"
+                },
+                {
+                  "desc": "You journey though the cave, you vanquish the demon once and for all."
+                },
+                {
+                  "icoName": "darkpriest"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "DeepTroll"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "Imp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "DeepTroll"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "Imp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "DeepTroll"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "Imp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "DeepTroll"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "Imp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "7"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "DeepTroll"
+                    },
+                    {
+                      "Mob": "DarkPriest"
+                    },
+                    {
+                      "Mob": "Imp"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellWithFire"
+                },
+                {
+                  "prompt": "You venture deeper into the caves."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "18": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Into the Depths"
+                },
+                {
+                  "desc": "You journey though the cave, you vanquish the demon once and for all."
+                },
+                {
+                  "icoName": "demon"
+                },
+                {
+                  "tier": "2"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "\"ENOUGH!\""
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "A voice rumbles through the cave."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "\"You impede my conquest, you undermine my reign, and you come into my home.\" it says."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "\"YOU WILL BE DEALT WITH!\" it shouts."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithFire"
+                },
+                {
+                  "nEnemies": "1"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Demon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "Your men let out a victory cry. The demon is defeated!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "19": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Farmer Trouble"
+                },
+                {
+                  "desc": "Farmers have reported critters in their fields, eating their crops."
+                },
+                {
+                  "icoName": "rat"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "prompt": "You set off for the fields, promising to return to the farmhouse when the task is complete."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Snake"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "prompt": "Returning to the farmhouse, you receive your reward."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "prompt": "Returning to the farmhouse, you receive your reward."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "300"
+                    },
+					{
+					  "Give_Exp" : "100"
+					}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "20": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Shady Characters"
+                },
+                {
+                  "desc": "Odd spirits have been spotted in an old part of the basement of the library. Clear it out."
+                },
+                {
+                  "icoName": "rottingdemon"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "prompt": "You set off for the library."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "prompt": "The great library of Wickerman is a pretty thing. Books line the walls. As you descend deeper, a chill fills your spine."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Rat"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "RottingDemon"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "basement"
+                },
+                {
+                  "prompt": "You clear the basement of the vile creatures, returning to the head librarian for your payment."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "200"
+                    },
+					{
+					  "Give_Exp" : "300"
+					}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "21": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Bounty Hunter"
+                },
+                {
+                  "desc": "A dangerous man has been found near the city, commanding the deadby the northern gate. Kill him."
+                },
+                {
+                  "icoName": "banditwarrior"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the northern gate, your men at your back."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Troll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "BanditWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "BanditWarrior"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You find a chest at the bandit's camp. In it lies a few potions and a wonderous looking sword."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Item": "Weapon_SwiftKatana"
+                    },
+                    {
+                      "Give_Item": "Item_HealthPotion"
+                    },
+                    {
+                      "Give_Item": "Item_HealthPotion"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You return to the mayor to receive your reward."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "300"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "22": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Danger Dogs"
+                },
+                {
+                  "desc": "A pack of rabid dogs have been found. Thus far they have slaughtered a small child. Take care of them before they hurt anyone else."
+                },
+                {
+                  "icoName": "wilddog"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You venture to the spot where the dogs lay."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "WildDog"
+                    },
+                    {
+                      "Mob": "Wolf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "WildDog"
+                    },
+                    {
+                      "Mob": "Wolf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "WildDog"
+                    },
+                    {
+                      "Mob": "Wolf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "WildDog"
+                    },
+                    {
+                      "Mob": "Wolf"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "You slaughter the remining dogs and return to the mayor to receive your reward."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "300"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "23": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "possessedvillager"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "dirtyField"
+                },
+                {
+                  "prompt": "You comb through as much of the field before sundown."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "2-3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "RottingDemon"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "2-3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "RottingDemon"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "2-3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "2-3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Shade"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You banish your demons; however, your job is far from done."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "300"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "24": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town."
+                },
+                {
+                  "icoName": "orcwarrior"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You banish your demons; however, your job is far from done."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "25": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "skeleton"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "RottingDemon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "RottingDemon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "RottingDemon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Skeleton"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    },
+                    {
+                      "Mob": "RottingDemon"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You find a soldier tied to what appears to be a makeshift alter; to what, you do not know."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You free the soldier. She thanks you, saying, \"I am in your debt.\" Alison joins your army!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Add_Army": "BeeBee"
+                    },
+                    {
+                      "Give_Gold": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "26": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "orcwarrior"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You banish your demons; however, your job is far from done."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "27": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "troll"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "2"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Troll"
+                    },
+                    {
+                      "Mob": "OrcWarrior"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "ou banish your demons; however, your job is far from done."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "28": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "orcarcher"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You find a soldier  being held in a cage. He is surrounded."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "PossessedVillager"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You vanquish the demons and rescue the soldier. He joins your army."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "29": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Vanquishing Evil"
+                },
+                {
+                  "desc": "Evil spirits and their disciples have been found within the town. Destroy them."
+                },
+                {
+                  "icoName": "possessedvillager"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You venture towards the disturbance."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "4"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "Orc"
+                    },
+                    {
+                      "Mob": "Skeleton"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "You banish your demons; however, your job is far from done."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "Give_Gold": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "30": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Shop"
+                },
+                {
+                  "desc": "A shop where you can buy goods."
+                },
+                {
+                  "icoName": "door"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "1000"
+                },
+                {
+                  "background": "firstTown"
+                },
+                {
+                  "items": [
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "Dagger": [
+                        {
+                          "Value": "200"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "Dagger": [
+                        {
+                          "Value": "200"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "Dagger": [
+                        {
+                          "Value": "200"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "WoodenBuckler": [
+                        {
+                          "Value": "400"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "WoodenBuckler": [
+                        {
+                          "Value": "400"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "LeatherArmor": [
+                        {
+                          "Value": "400"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "LeatherArmor": [
+                        {
+                          "Value": "400"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "Chainmail": [
+                        {
+                          "Value": "700"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "Chainmail": [
+                        {
+                          "Value": "700"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "IronLeggings": [
+                        {
+                          "Value": "600"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "IronLeggings": [
+                        {
+                          "Value": "600"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "RedRobe": [
+                        {
+                          "Value": "300"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "RedRobe": [
+                        {
+                          "Value": "300"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "firstTown"
+                },
+                {
+                  "prompt": "You leave the shop."
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+					
+				  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "31": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Shop"
+                },
+                {
+                  "desc": "Someone is selling things -- well, whatever they have left."
+                },
+                {
+                  "icoName": "door"
+                },
+                {
+                  "tier": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Shop"
+                },
+                {
+                  "Gold": "300"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "items": [
+                    {
+                      "ElvenScalemail": [
+                        {
+                          "Value": "7000"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "GoldenBuckler": [
+                        {
+                          "Value": "1000"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "HealthPotion": [
+                        {
+                          "Value": "50"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "PlateMail": [
+                        {
+                          "Value": "1500"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "StuddedPlateMail": [
+                        {
+                          "Value": "2500"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "StuddedMetalBuckler": [
+                        {
+                          "Value": "1750"
+                        },
+                        {
+                          "Type": "Armor"
+                        }
+                      ]
+                    },
+                    {
+                      "BattleAxe": [
+                        {
+                          "Value": "2000"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "Katana": [
+                        {
+                          "Value": "1500"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "Morningstar": [
+                        {
+                          "Value": "1000"
+                        },
+                        {
+                          "Type": "Weapon"
+                        }
+                      ]
+                    },
+                    {
+                      "Antidote": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "Antidote": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "StrengthPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "StrengthPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "WisdomPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "WisdomPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "DexterityPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    },
+                    {
+                      "DexterityPotion": [
+                        {
+                          "Value": "100"
+                        },
+                        {
+                          "Type": "Item"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "destroyedTown"
+                },
+                {
+                  "prompt": "Thank you come again!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "32": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "Le Defi"
+                },
+                {
+                  "desc": "You find a challenge nailed on a tree. Complete it and earn a great reward."
+                },
+                {
+                  "icoName": "archercentuar"
+                },
+                {
+                  "tier": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "The challenge is about to commence."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "meleecentuar"
+                    },
+                    {
+                      "Mob": "archercentuar"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "Félicitations à vous!!!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "add_army": "Arthur"
+                    },
+                    {
+                      "give_gold": "1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "33": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "La Defi"
+                },
+                {
+                  "desc": "You find a challenge nailed on a tree. Complete it and earn a great reward."
+                },
+                {
+                  "icoName": "twoheadedogre"
+                },
+                {
+                  "tier": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "The challenge is about to commence."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "3"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "TwoHeadedOgre"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "Félicitations à vous!!!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "add_army": "Tyler"
+                    },
+                    {
+                      "give_gold": "1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "34": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "La Defi"
+                },
+                {
+                  "desc": "You find a challenge nailed on a tree. Complete it and earn a great reward."
+                },
+                {
+                  "icoName": "soldierswordsman"
+                },
+                {
+                  "tier": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "The challenge is about to commence."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "SoldierArcher"
+                    },
+                    {
+                      "Mob": "SoldierSwordsman"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "heavyForest"
+                },
+                {
+                  "prompt": "Félicitations à vous!!!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "add_army": "Buster"
+                    },
+                    {
+                      "give_gold": "1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "35": [
+        {
+          "properties": [
+            {
+              "args": [
+                {
+                  "title": "La Defi"
+                },
+                {
+                  "desc": "You find a challenge nailed to the wall. Complete it and earn a great reward."
+                },
+                {
+                  "icoName": "demon"
+                },
+                {
+                  "tier": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "The challenge is about to commence."
+                },
+                {
+                  "finishMission": "false"
+                },
+                {
+                  "actions": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Battle"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "nEnemies": "5"
+                },
+                {
+                  "aEnemies": [
+                    {
+                      "Mob": "demon"
+                    },
+                    {
+                      "Mob": "demontroll"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "event": [
+            {
+              "args": [
+                {
+                  "type": "Setting"
+                },
+                {
+                  "background": "hellwithfire"
+                },
+                {
+                  "prompt": "Félicitations à vous!!!"
+                },
+                {
+                  "finishMission": "true"
+                },
+                {
+                  "actions": [
+                    {
+                      "add_army": "Tim"
+                    },
+                    {
+                      "give_gold": "1000"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
