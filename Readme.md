@@ -5,8 +5,6 @@
 
 Langauges used: ActionScript 3, HTML & JSON Markup
 
-Game Link: http://www.newgrounds.com/portal/view/685469
-
 <img src='https://github.com/Naomi-Dennis/An-Arduous-Journey-Beta/blob/master/ScreenShot%201.png' width='400' height='400' />
 '
 <img src='https://github.com/Naomi-Dennis/An-Arduous-Journey-Beta/blob/master/Screenshot%203.png' width='400' height='400' />
